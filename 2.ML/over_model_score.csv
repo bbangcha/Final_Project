@@ -1,0 +1,9 @@
+,Model,Dataset,Best estimator,Accuracy,Precision,Recall,F1 Score
+0,Decision Tree,Test,"DecisionTreeClassifier(max_depth=9, min_samples_split=10)",0.9863013698630136,0.9871243923994698,0.9863013698630136,0.9864231287300756
+1,Random Forest,Test,"RandomForestClassifier(max_depth=9, min_samples_split=5, n_estimators=200)",0.9897260273972602,0.9903074685344977,0.9897260273972602,0.9898399686741731
+2,LGBMClassifier,Test,"LGBMClassifier(learning_rate=0.05, max_depth=3, min_child_weight=4,
+               n_estimators=200)",0.9897260273972602,0.9900114155251141,0.9897260273972602,0.9897152961127809
+3,Decision Tree_log,Test,DecisionTreeClassifier(max_depth=9),0.9828767123287672,0.9838709677419355,0.9828767123287672,0.9831060082748437
+4,Random Forest_log,Test,"RandomForestClassifier(max_depth=9, min_samples_split=10, n_estimators=200)",0.9863013698630136,0.9877037080774681,0.9863013698630136,0.9866170356830517
+5,LGBMClassifier_log,Test,"LGBMClassifier(learning_rate=0.05, max_depth=3, min_child_weight=2,
+               n_estimators=200)",0.9863013698630136,0.9871243923994698,0.9863013698630136,0.9864231287300756
